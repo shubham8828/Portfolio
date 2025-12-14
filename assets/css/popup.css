@@ -1,0 +1,62 @@
+.modal-open {
+  overflow: hidden;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 7; /* Sit on top */
+    left: 400px;
+    top: 50px;
+    width: auto; /* Full width */
+    height:auto; /* Full height */
+    border-radius: 15px;
+    /* Black w/ opacity */
+  }
+  
+  /* Modal Content (Image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+
+  /* Close Button */
+  .close {
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    color: #e20b0b;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+ 
+  
+  @media (min-width: 350px) {
+    .modal{
+      top: 35%;
+      left: 0px;
+      margin: auto;
+      width: auto;
+    }
+    
+
+  }
+
+  @media (min-width: 850px) {
+    .modal{
+      top: 5%;
+      left: 15%;
+      margin: auto;
+      width: 70%;
+      height:90%;
+
+    }
+    
+
+  }
